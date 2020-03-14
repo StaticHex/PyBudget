@@ -33,7 +33,6 @@ if not os.path.isfile('./test.json'):
     f.write('    { "type":"R", "name":"Sample Transaction", "amount":0.00 }\n')
     f.write(']')
     f.close()
-exit()
 
 # Load in current transactions
 f = open('./current.json','r')

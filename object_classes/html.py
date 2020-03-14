@@ -105,7 +105,7 @@ class HTMLWriter:
         if isinstance(endDate, datetime):
             endDate = endDate.strftime("%m/%d/%Y")
         self.__open_tag('h1',{'style':'text-align: center;'})
-        self.__write(f'{startDate} ~ {endDate}')
+        self.__write(f'Budget Report {startDate} ~ {endDate}')
         self.__close_tag()
 
     def processTransaction(self, transaction, total):
