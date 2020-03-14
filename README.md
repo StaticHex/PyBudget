@@ -1,8 +1,8 @@
 # PyBudget v1.0
 ----
-**Written By:** Joseph Bourque
-**Completed On:** 03/14/2020
-**Last Upadted:** 03/14/2020
+**Written By:** Joseph Bourque<br/>
+**Completed On:** 03/14/2020<br/>
+**Last Updated:** 03/14/2020<br/>
 **Contact Email:** indegon1(at)gmail(dot)com
 
 ----
