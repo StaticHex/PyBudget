@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 105%;
+}
+div {
+    page-break-inside: avoid;
+}
+.scheduled {
+    background: #ccccff;
+    border: 1px solid #9999cc;
+}
+.withdrawl {
+    background: #ffcccc;
+    border: 1px solid #cc9999;
+}
+.deposit {
+    background: #ccffcc;
+    border: 1px solid #99cc99;
+}
+.report {
+    background: #cccccc;
+    border: 1px solid #999999;
+}
+.pop {
+    box-shadow:3px 3px 5px #cccccc;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+}
+.rounded {
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 20px;
+    margin: 5px;
+}
+.total-bar-W {
+    background: #cc9999;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.total-bar-D {
+    background: #99cc99;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.total-bar-S {
+    background: #9999cc;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+.nopad {
+    padding:0px;
+    margin:0px;
+}
+.percent70 {
+    width:69%;
+    display: inline-block;
+}
+.percent50 {
+    width:49%;
+    display: inline-block;
+}
+.percent20 {
+    width:19%;
+    display: inline-block;
+}
+.percent10 {
+    width:9%;
+    display: inline-block;
+}
+.divider {
+    border-right: 1px solid #cccccc;
+}
+.red {
+    color: #ff0000;
+}
