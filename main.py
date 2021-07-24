@@ -137,7 +137,7 @@ lastTotal = writer.processTransaction(
 # If archiving flag was set, archive data and clear out transactions
 if arcive:
     # Archive data as csv
-    f = open(f'./data/{endDate.strftime(dateFormat)}.csv','w')
+    f = open(f'./data/{endDate.strftime(fileFormat)}.csv','w')
     for transaction in aggregated:
         f.write(transaction.getCSVEntry())
     f.close()
